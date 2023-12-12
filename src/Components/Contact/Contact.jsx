@@ -31,8 +31,8 @@ const Contact = () => {
         }
     return (
         <div className="max-w-[1200px] mx-auto p-4">
-            <div className="flex">
-                <div className="w-1/2">
+            <div className="xl:flex">
+                <div className="xl:w-1/2">
         <h2 className="text-3xl font-bold">Let’s talk</h2>
         <p>I'm eager to connect with you! If you have any questions, want to say hello,<br/> or just share your thoughts, feel free to send a message. I'll do my utmost to respond promptly</p>
         <div className="">
@@ -74,7 +74,7 @@ const Contact = () => {
   </div>
 </div>
         </div>
-                <div className="w-1/2 ml-20">
+                <div className="xl:w-1/2 ml-20">
                     <div>
                     <img src="https://i.ibb.co/8K88qTn/img6.png" alt="" />
                     </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                        Cox's Bazar,Bangladesh </li>
                      <li className="flex  py-2 items-center gap-2 text-xl"> <MdOutlineMailOutline /> maimunislam@gmail.com</li>
                      <li className="flex py-2 items-center text-xl gap-2"><FaPhoneVolume />
- 01867324653 </li>
+                         01867324653 </li>
                         </ul>
                     </div>
                 </div>

@@ -3,7 +3,8 @@ import ParticleBg from '../ParticleBg/ParticleBg';
 import './Project.css';
 const Project = () => {
     return (
-        <div className="max-w-[1200px] mx-auto py-5  ">
+        <div className='bg-black'>
+          <div className="max-w-[1200px] mx-auto py-5  ">
           <ParticleBg></ParticleBg>
             <h2 className="text-3xl text-white py-5 font-bold text-center">Some of My Projects</h2>
             <div className="flex flex-col gap-8 md:flex-row md:gap-10">
@@ -30,8 +31,8 @@ const Project = () => {
       <span>MongoDB</span>
     </div>
     <div className="card-actions justify-between">
-      <button className="btn btn-primary"><a href="https://asset-management-aec80.web.app/">Live Link</a></button>
-      <button className="btn btn-primary"><a href="https://github.com/Maimun54/brand-shop-client">Github</a></button>
+      <button className="btn btn-primary"><a href="https://brand-shop-47252.web.app/">Live Link</a></button>
+      <button className="btn btn-primary"><a href="https://github.com/Maimun54/brand-shop-client">Github Link</a></button>
     </div>
   </div>
 </div>
@@ -56,7 +57,7 @@ const Project = () => {
     </div>
     <div className="card-actions justify-between">
       <button className="btn btn-primary"><a href="https://asset-management-aec80.web.app/">Live Link</a></button>
-      <button className="btn btn-primary"><a href="https://github.com/Maimun54/Assets-management-WealthNest-client?tab=readme-ov-file">Github</a></button>
+      <button className="btn btn-primary"><a href="https://github.com/Maimun54/Assets-management-WealthNest-client?tab=readme-ov-file">Github Link</a></button>
     </div>
   </div>
 </div>
@@ -80,13 +81,14 @@ const Project = () => {
       <span>MongoDB</span>
     </div>
     <div className="card-actions justify-between">
-      <button className="btn btn-primary">Live Link</button>
-      <button className="btn btn-primary">Github</button>
+      <button className="btn btn-primary"><a href="https://child-blog-cfc06.web.app/">Live Link</a></button>
+      <button className="btn btn-primary"><a href="https://github.com/Maimun54/blog-website-client">Github Link</a></button>
     </div>
   </div>
 </div>
 
             </div>
+        </div>
         </div>
     );
 };
