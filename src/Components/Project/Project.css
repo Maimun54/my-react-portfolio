@@ -1,0 +1,11 @@
+
+ .skill span {
+    color: #c6c9d8;
+    background: #282828;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+  }
