@@ -21,17 +21,17 @@ import Contact from "../Components/Contact/Contact";
 
         },
         {
-          path:"/about",
+          path:"about",
           element:<About></About>
 
         },
         {
-          path:"/project",
+          path:"project",
           element:<Project></Project>
 
         },
         {
-          path:"/contact",
+          path:"contact",
           element:<Contact></Contact>
 
         },

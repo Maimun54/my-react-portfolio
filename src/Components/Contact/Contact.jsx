@@ -30,11 +30,11 @@ const Contact = () => {
       });
         }
     return (
-        <div className="max-w-[1200px] mx-auto p-4">
+        <div className="max-w-[1200px] mx-auto p-4 mb-10" >
             <div className="xl:flex">
                 <div className="xl:w-1/2">
-        <h2 className="text-3xl font-bold">Let’s talk</h2>
-        <p>I'm eager to connect with you! If you have any questions, want to say hello,<br/> or just share your thoughts, feel free to send a message. I'll do my utmost to respond promptly</p>
+        <h2 className="text-3xl text-[#5030f0] py-5 font-bold">Let’s talk</h2>
+        <p className="mb-5">I'm eager to connect with you! If you have any questions, want to say hello,<br/> or just share your thoughts, feel free to send a message. I'll do my utmost to respond promptly</p>
         <div className="">
   <div className="mx-auto md:w-3/4 lg:w-full">
     
@@ -76,18 +76,14 @@ const Contact = () => {
         </div>
                 <div className="xl:w-1/2 ml-20">
                     <div>
-                    <img src="https://i.ibb.co/8K88qTn/img6.png" alt="" />
+                    <img className="w-full mt-14" src="https://i.ibb.co/8K88qTn/img6.png" alt="" />
                     </div>
-                    <div className="flex">
-                        
-
-
-
-                        <ul className="">
-                     <li className="flex py-2 gap-2 items-center text-xl "><FaLocationDot />
+                    <div className="flex mb-5">    
+                     <ul className="">
+                     <li className="flex py-2 gap-2 items-center text-xl "><FaLocationDot className="text-[#5030f0]" />
                        Cox's Bazar,Bangladesh </li>
-                     <li className="flex  py-2 items-center gap-2 text-xl"> <MdOutlineMailOutline /> maimunislam@gmail.com</li>
-                     <li className="flex py-2 items-center text-xl gap-2"><FaPhoneVolume />
+                     <li className="flex  py-2 items-center gap-2 text-xl"> <MdOutlineMailOutline className="text-[#5030f0]"  /> maimunislam@gmail.com</li>
+                     <li className="flex py-2 items-center text-xl gap-2"><FaPhoneVolume className="text-[#5030f0]" />
                          01867324653 </li>
                         </ul>
                     </div>

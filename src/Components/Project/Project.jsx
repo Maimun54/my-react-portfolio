@@ -1,12 +1,12 @@
 
-import ParticleBg from '../ParticleBg/ParticleBg';
+
 import './Project.css';
 const Project = () => {
     return (
         <div className='bg-black'>
           <div className="max-w-[1200px] mx-auto py-5  ">
-          <ParticleBg></ParticleBg>
-            <h2 className="text-3xl text-white py-5 font-bold text-center">Some of My Projects</h2>
+          
+            <h2 className="text-3xl text-[#5030f0] py-10 font-bold text-center">Some of My Projects</h2>
             <div className="flex flex-col gap-8 md:flex-row md:gap-10">
                 {/* Project 1 */}
             

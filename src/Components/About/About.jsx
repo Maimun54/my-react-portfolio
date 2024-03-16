@@ -11,7 +11,7 @@ const About = () => {
                     <img className="lg:w-full " src="https://i.ibb.co/rHnDjF5/DSC2630-copy-1.png" alt="" />
                 </div>
                 <div className="lg:w-1/2 lg:pl-8 mt-4 lg:mt-0">
-                    <h2 className="text-3xl text-white font-bold mb-5"><span className=" underline">About</span> me</h2>
+                    <h2 className="text-3xl text-[#5030f0] font-bold mb-5"><span className=" underline">About</span> me</h2>
                     <p className="py-2 text-white lg:w-full text-xl">
                         As a MERN-stack web developer, my expertise lies in crafting dynamic applications using React, Node.js, and MongoDB. Beyond the realm of full-stack development, I've honed my skills in building static websites with HTML5, CSS3, and JavaScript (ES6). With a penchant for swift learning, I embrace challenges with a strong work ethic and efficiency. Committed to staying abreast of emerging technologies, my ultimate aim is to evolve into a world-class professional web developer.
                     </p>
