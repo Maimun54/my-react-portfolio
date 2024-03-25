@@ -56,7 +56,7 @@ const Project = () => {
       <span>MongoDB</span>
     </div>
     <div className="card-actions justify-between">
-      <button className="btn btn-primary"><a href="https://asset-management-aec80.web.app/">Live Link</a></button>
+      <button className="btn btn-primary"><a href="https://learnnestmanagement.netlify.app/">Live Link</a></button>
       <button className="btn btn-primary"><a href="https://github.com/Maimun54/Assets-management-WealthNest-client?tab=readme-ov-file">Github Link</a></button>
     </div>
   </div>

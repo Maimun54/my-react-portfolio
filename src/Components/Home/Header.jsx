@@ -9,7 +9,8 @@ import ParticleBg from '../ParticleBg/ParticleBg';
 const Header = ({ particleBg }) => {
     return (
        
-         <div className='bg-black'>
+        <section>
+             <div className='bg-black'>
     {particleBg && <ParticleBg particleBg={particleBg} />}
           <div className='lg:w-[1200px]  mx-auto'>
               <section className="header  min-h-screen flex items-center">
@@ -52,6 +53,7 @@ const Header = ({ particleBg }) => {
           </div>
           
       </div>
+        </section>
      
        
     );
